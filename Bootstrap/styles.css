@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+:root {
+    /* Primary Color */
+    --primary-color: #048E7B;
+  
+    --background-color : #023931 ;
+  
+    /* Background */
+    --white-color: #ffffff; 
+  
+    /* Accent Gray */
+    --heading-text: #000;
+  
+    /* Text and Secondary Elements */
+    --text-color: #333;
+  
+    /* Divider Lines */
+  }
+  html{
+    font-size: 62.5%;
+  }
+  body{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color:#333;
+font-size: 1.8rem;
+  }
+  ul{
+    list-style: none;
+  }
+  a{
+    text-decoration: none;
+  }
+
+  .bg-header{
+    background-color: #023931;
+  }
+  nav{
+    height: 9rem;
+  }
+  .navbar-brand{
+    font-size: 24px;
+  }
+  .nav-link:link , .nav-link:visited {
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 500;
+    display: inline-block;
+  }
+  
+  .nav-link:hover,.nav:active{
+color: var(--primary-color);
+  }
+  .nav-link.cta{
+    background-color: var(--background-color);
+  }
